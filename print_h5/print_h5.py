@@ -24,7 +24,7 @@ def print_node(node, indent: int =4) -> str:
         >>> print_node("a")
         a
         >>> print_node("a/b", indent=3)
-        b
+           b
     """
 
     *first, last = str(node).split("/")
